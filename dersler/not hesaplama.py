@@ -13,7 +13,7 @@
 
 #Sonuçrta bir return dönmeyeceğiz öğrenci ismini ve harf notunu aynı satırda print etmeliyiz.
 
-sozluk={'Ali':75,'Ayse':'aaa','Ahmet':101,'Fatma':91,'Jale':13}
+sozluk={'Ali':-10,'Ayse':'aaa','Ahmet':101,'Fatma':91,'Jale':13}
 
 def not_donustur(puan):
     if puan >= 90:
@@ -36,7 +36,7 @@ def notlar(sozluk):
             raise TypeError(f"Hata: {isim} için puan bir int değil! ({puan})")
         if puan > 100:
             raise ValueError(f"Hata: {isim} için puan 100'den büyük! ({puan})")
-        elif puan < 100:
+        elif puan <= 100:
             print(f"{isim}: {not_donustur(puan)}")
      except (TypeError, ValueError) as e:
             print(e)

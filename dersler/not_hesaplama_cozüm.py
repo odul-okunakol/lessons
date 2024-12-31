@@ -29,7 +29,7 @@ def not_hesapla(ogrenci_notlari):
 
 # Örnek Kullanım
 ogrenci_notlari = {
-    "Ahmet": 75,
+    "Ahmet": -75,
     "Ayşe": 95,
     "Mehmet": 50,
     "Burcu": "yüz"  # Hatalı giriş
