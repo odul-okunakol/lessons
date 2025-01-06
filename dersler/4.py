@@ -12,7 +12,7 @@
 def ort_bulma(sayilar):
     toplam = sum(sayilar)
     ortalama=toplam / len(liste)
-    return (toplam,ortalama)
+    return toplam,ortalama
 
 
 liste = [10, 20, 30,40]

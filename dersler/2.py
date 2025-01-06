@@ -8,3 +8,4 @@ for x in ogrenciler:
     toplam += int(x['not'])
     eleman=int(len(ogrenciler))
 print('Sinif Ortalamasi:',toplam / eleman)
+print('Toplam:',toplam)
