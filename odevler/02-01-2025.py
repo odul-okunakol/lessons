@@ -36,7 +36,6 @@ Kullanıcı doğru tahmin edene kadar ipuçları (daha büyük ya da daha küç�
 Bilgisayarın seçtiği sayı: 8
 Kullanıcı tahmini: 5
 Çıktı: Daha büyük!
-
 """
 
 """
